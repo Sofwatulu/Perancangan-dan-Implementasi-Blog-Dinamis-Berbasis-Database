@@ -1,0 +1,106 @@
+/* Gaya untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk header dan footer */
+header, footer {
+    background: #0077b6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Gaya untuk halaman index.php (berisi daftar artikel) */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.card .info {
+    font-size: 12px;
+    color: #555;
+}
+
+.card p {
+    font-size: 14px;
+    color: #333;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Gaya untuk halaman detail.php (berisi artikel lengkap) */
+.container {
+    width: 90%; /* Atur lebar kontainer menjadi 90% dari layar */
+    max-width: 1200px; /* Tambahkan lebar maksimum untuk tampilan yang lebih besar */
+    margin: 0 auto; /* Tengah-kan kontainer secara horizontal */
+    padding: 20px;
+}
+
+.article-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    line-height: 1.6;
+    margin-bottom: 20px;
+    word-wrap: break-word; /* Untuk memecah kata yang terlalu panjang */
+}
+
+.article-content h1 {
+    font-size: 28px; /* Ukuran font lebih besar untuk judul */
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.article-content p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.article-content img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.article-footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.article-footer p {
+    font-size: 14px;
+    color: #555;
+}
