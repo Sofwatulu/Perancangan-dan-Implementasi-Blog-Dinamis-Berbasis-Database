@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Blog Wisata Malang
 
 Ini adalah proyek blog dinamis tentang wisata dan kuliner, yang dibuat menggunakan PHP, MySQL, dan HTML/CSS. Proyek ini mencakup halaman utama dengan daftar artikel serta halaman detail untuk setiap artikel. Gambar, penulis, dan kategori artikel diambil dari database MySQL yang diatur untuk memberikan pengalaman dinamis.
@@ -104,3 +105,6 @@ Website ini menggunakan desain minimalis dan responsif, menggunakan HTML dan CSS
 2. Pindahkan proyek ke dalam folder htdocs jika menggunakan XAMPP.
 3. Jalankan Apache dan MySQL di XAMPP Control Panel.
 4. Akses website melalui browser di http://localhost/pemweb_T/.
+=======
+# Perancangan-dan-Implementasi-Blog-Dinamis-Berbasis-Database
+>>>>>>> 1719f42fc2f7c046de130fe8fb123cab603a3fb3
