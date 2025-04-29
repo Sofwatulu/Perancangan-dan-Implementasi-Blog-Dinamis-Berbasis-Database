@@ -30,11 +30,14 @@ if ($data = mysqli_fetch_assoc($query)) {
         <p>Temukan destinasi menarik dan informatif dari database dinamis.</p>
     </header>
 
-    <div class="detail-container">
-        <h2><?php echo $data['title']; ?></h2>
-        <p class="info">Dipublikasikan: <?php echo $data['publish_date']; ?> | Penulis: <?php echo $data['name']; ?> | Kategori: <?php echo $data['category_name']; ?></p>
-        <img src="images/<?php echo $data['image']; ?>" alt="<?php echo $data['title']; ?>">
-        <p><?php echo $data['content']; ?></p>
+    <div class="container">
+        <div class="article-content">
+            <h1><?php echo $data['title']; ?></h1>
+            <p class="info">Dipublikasikan: <?php echo $data['publish_date']; ?> | Penulis: <?php echo $data['name']; ?> | Kategori: <?php echo $data['category_name']; ?></p>
+            <!-- Gambar artikel -->
+            <img src="images/<?php echo $data['image']; ?>" alt="<?php echo $data['title']; ?>">
+            <p><?php echo nl2br($data['content']); ?></p>
+        </div>
     </div>
 
     <footer>

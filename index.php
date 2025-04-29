@@ -22,7 +22,8 @@ $query = mysqli_query($conn, "SELECT article.*, author.name, category.category_n
     <div class="card-container">
         <?php while ($data = mysqli_fetch_assoc($query)) { ?>
         <div class="card">
-            <img src="pemweb_T/images/<?php echo $data['image']; ?>" alt="<?php echo $data['title']; ?>">
+            <!-- Gambar yang diambil dari folder 'images' -->
+            <img src="images/<?php echo $data['image']; ?>" alt="<?php echo $data['title']; ?>">
             <h2><?php echo $data['title']; ?></h2>
             <p class="info">Dipublikasikan: <?php echo $data['publish_date']; ?> | Penulis: <?php echo $data['name']; ?> | Kategori: <?php echo $data['category_name']; ?></p>
             <p><?php echo substr($data['content'], 0, 100); ?>...</p>

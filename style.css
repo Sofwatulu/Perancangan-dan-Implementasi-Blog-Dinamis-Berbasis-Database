@@ -78,9 +78,10 @@ header, footer {
 }
 
 .article-content h1 {
-    font-size: 28px; /* Ukuran font lebih besar untuk judul */
+    font-size: 28px;
     color: #0077b6;
     margin-bottom: 20px;
+    text-align: center; /* Tengah-kan judul */
 }
 
 .article-content p {
@@ -90,9 +91,19 @@ header, footer {
 }
 
 .article-content img {
-    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px auto; /* Tengah-kan gambar */
     border-radius: 8px;
-    margin-top: 20px;
+}
+
+/* Gaya untuk subjudul dalam artikel */
+.article-content h3 {
+    font-size: 20px;
+    font-weight: bold; /* Membuat subjudul lebih tebal */
+    margin-top: 15px; /* Memberikan jarak di atas subjudul */
+    color: #0077b6;
 }
 
 .article-footer {
